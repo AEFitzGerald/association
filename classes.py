@@ -11,12 +11,12 @@ class User:
         #attribute type BankAccount
         self.account = BankAccount(int_rate=0.02, balance=0)	
 
-    def make_deposit(self, amount):
+    def make_deposit(self):
         self.account.deposit
 
         return self
     
-    def make_withdrawal(self, amount):
+    def make_withdrawal(self):
         self.account.withdraw
         
         return self
